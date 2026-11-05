@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: midnight-at-the-museum
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production

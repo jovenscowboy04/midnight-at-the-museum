@@ -1,0 +1,9 @@
+{
+  "name": "midnight-at-the-museum",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An interactive mystery detective game with optional AI-powered suspect dialogue",
+  "scripts": {"start": "node server.js", "dev": "node --watch server.js", "test": "node --test"},
+  "engines": {"node": ">=18"},
+  "license": "MIT"
+}
